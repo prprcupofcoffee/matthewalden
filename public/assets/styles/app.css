@@ -1,18 +1,24 @@
+body {
+  font-family: "Martel Sans";
+}
+
 .page {
   margin: auto;
-  width: 70%;
+  width: 75%;
 }
 
 .header {
   display: flex;
+  margin: 40px 0px 15px 0px;
 }
 
 .header-logo {
 }
 
 .header-separator {
-  width: 5px;
+  width: 6px;
   height: 122px;
+  border-radius: 2px;
   background-color: #8D0000;
 }
 
@@ -23,7 +29,7 @@
 .header-nav-skill {
   color: #8D0000;
   padding-left: 10px;
-  font-size: x-large;
+  //font-size: large;
 }
 
 .header-nav-links {
@@ -35,7 +41,7 @@
 .header-nav-links-item {
   color: #8D0000;
   padding: 0px 10px;  
-  font-size: x-large;
+  font-size: large;
 }
 
 .body {
@@ -48,5 +54,70 @@
 }
 
 .biography {
-  clear: both;
+  font-size: x-large;
+  width: 60%;
+}
+
+.img-mistletoe {
+  width: 291px;
+  height: 291px;
+}
+
+.img-slatebackground {
+  padding: 0px 8px;
+  width: 291px;
+  height: 291px;
+}
+
+.img-ppccmodern {
+  width: 367px;
+  height: 291px;
+}
+
+.img-ocu {
+  padding: 0px 4px 0px 0px;
+  width: 666px;
+  height: 501px;
+}
+
+.img-ppccjazz {
+  padding: 0px 0px 0px 4px;
+  width: 293;
+  height: 501px;
+}
+
+.resume-title {
+  color: #8D0000;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.resume-image {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.resume-download > a {
+  align: center;
+  padding: 2px 15px;
+  background-color: #8D0000;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resume-download > a:hover {
+  background-color: #CD0000;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.footer > a {
+  padding: 0px 5px;
 }

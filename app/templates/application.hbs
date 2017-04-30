@@ -1,5 +1,37 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="page">
+  <div class="header">
+    <div class="header-logo">
+      <img src="/assets/images/matthewaldenlogo.png" />
+    </div>
+    <div class="header-separator">
+      &nbsp;
+    </div>
+    <div class="header-nav">
+      <div class="header-nav-skill">&nbsp;</div>
+      <div class="header-nav-skill">Dancer</div>
+      <div class="header-nav-skill">Singer</div>
+      <div class="header-nav-skill">Actor</div>
+      <div class="header-nav-skill">Choreographer</div>
+      <div class="header-nav-links">
+        <span class="header-nav-links-item">
+          {{#link-to "home"}}Home{{/link-to}}
+        </span>
+        <span class="header-nav-links-item">
+          {{#link-to "biography"}}Biography{{/link-to}}
+        </span>
+        <span class="header-nav-links-item">
+          {{#link-to "gallery"}}Gallery{{/link-to}}
+        </span>
+        <span class="header-nav-links-item">
+          {{#link-to "resume"}}Resume{{/link-to}}
+        </span>
+        <span class="header-nav-links-item">
+          {{#link-to "contact"}}Contact{{/link-to}}
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
